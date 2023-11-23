@@ -16,14 +16,15 @@ const Thirdnav = () => {
 
       <div className='twonav'>
         <ul>
-        <li> <Link to="audio" className='third'>Audio</Link> </li>
-        </ul>
-        <div className='dropdown-nav'>
-            <ul>
-              <li> <Link  to="headpones" className='dropdown-content'>Headphones</Link></li>
-              <li> <Link  to="speakers" className='dropdown-coontent'>Speakers</Link></li>
+        <li> <Link to="audio" className='third'>Audio</Link> 
+           <div className='dropdown-content'>
+           <ul>
+              <li><Link  to="headpones">Headphones</Link></li>
+              <li><Link  to="speakers">Speakers</Link></li>
             </ul>
-        </div>
+           </div>
+        </li>
+        </ul>
       </div>
 
       <div className='threenav'>

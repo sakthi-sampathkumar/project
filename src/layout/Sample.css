@@ -16,24 +16,32 @@
     display: flex;
     /* background-color:violet; */
 }
- .search1:hover:not(.active) 
+ .search1:hover
 {
   background-color:white;
+  border: 1px solid black;
+  
+
 }
 .search1{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-style: none;
-    width: 43%;
-    margin-left: 70px;
+    /* border-color: red; */
+    width: 63%;
+    height: 45px;
+    margin-left: 60px;
     background-color: rgb(231, 228, 224);
 }
 .nav2 button{
-    width: 11%;
+    width: 15%;
+    height: 45px;
+    /* margin-left: 2px; */
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color:slateblue;
     border-style: none;
+    
 }
 button:hover:not(.active) 
 {
