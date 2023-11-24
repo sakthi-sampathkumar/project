@@ -12,7 +12,7 @@ const Thirdnav = () => {
         <li> <Link to="tablets" className='third'>Tablets</Link> </li>
         <li> <Link to="drones" className='third'>Drones & Cameras</Link> </li> 
       </ul>
-     </div>
+     </div> 
 
       <div className='twonav'>
         <ul>

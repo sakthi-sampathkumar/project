@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.firstpage1{
+    width: 100%;
+    height: 550px;
+    background-color: aqua;
+    position:absolute;
+}
+.wordlink{
+    width: 45%;
+    height: 500px;
+    /* background-color:aliceblue; */
+    margin-left: 220px;
+    margin-top: 50px;
+    padding-top: 30px;
+    position: relative;
+}
+.bestprices{
+    width: 20%;
+    height: 30px;
+    background-color:tomato;
+    padding-left: 15px;
+    color: white;
+    font-size: 20px;
+}
+.incridible{
+    width: 80%;
+    height: 210px;
+    /* background-color: violet; */
+    margin-top: 10px;
+    font-weight: bold;
+}
+.incri{
+    font-size: 60px;
+}
+.get{
+    width: 90%;
+    height: 40px;
+    /* background-color: turquoise; */
+    margin-top: 15px;
+}
+.brands{
+    font-size: 22px;
+}
+.shop{
+    background-color:slateblue;
+    width: 30%;
+    height: 50px;
+    border-radius: 40px;
+    border-style: none;
+    margin-top: 7px;
+    color: white;
+}

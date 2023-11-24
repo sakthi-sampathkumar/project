@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.secondpage1{
+    width: 100%;
+    height:400px;
+    background-color:tomato;
+}
