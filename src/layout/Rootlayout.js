@@ -6,6 +6,8 @@ import Thirdnav from "./Third";
 import Firstpage from "../firstdiv/firstpage";
 import Secondpage from "../seconddiv/secondpage";
 import White from "./white";
+import Thirdpage from "../thirddiv3/thirdpage";
+
 
 
  function Rootlayout(){
@@ -17,6 +19,7 @@ import White from "./white";
       <Thirdnav />
       <Firstpage />
       <Secondpage />
+      <Thirdpage />
       <Outlet />
       </div>
     );

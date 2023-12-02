@@ -11,7 +11,7 @@ const Sample = () => {
     <div className='nav2'>
       <div className='nav2left'><h1>TechShed</h1>
       <input type='text' placeholder='   Search...' name='search' className='search1'></input>
-      <button type="submit"><span className='icon2'> <Icon.Search size={15}></Icon.Search> </span></button>
+      <button type="submit" className='butt'><span className='icon2'> <Icon.Search size={15}></Icon.Search> </span></button>
       </div>
       <div className='aa'>
       <ul>
