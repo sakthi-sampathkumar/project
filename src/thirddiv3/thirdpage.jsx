@@ -15,12 +15,12 @@ export default function Thirdpage() {
           <div className='ship mt-5'> <h4>Free shipping on orders over $50</h4> </div>
         </div>
         <div className='lowprice d-flex'>
-          <div className='imgthree'></div>
-          <div className='lowp mt-5 ms-5'><h4>Low prices guaranteed</h4></div>
+          <div className='imgthree mt-4'></div>
+          <div className='lowp mt-5 '><h4>Low prices guaranteed</h4></div>
         </div>
-        <div className='available d-flex'>
-          <div className='imgfour'></div>
-          <div className='avai mt-5 ms-5'><h4>Available to you 24/7 </h4></div>
+        <div className='available ms-5 d-flex'>
+          <div className='imgfour mt-4 ms-3'></div>
+          <div className='avai mt-5 '><h4>Available to you 24/7 </h4></div>
         </div>
       </div>
     </div>

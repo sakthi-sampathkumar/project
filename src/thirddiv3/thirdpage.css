@@ -5,7 +5,7 @@
 .thirdpagediv{
     width: 100%;
     height: 260px;
-    background-color: violet;
+    background-color:rgb(231, 230, 230);
     position: absolute;
     margin-top: 85%;
 }
@@ -17,27 +17,30 @@
 .pickup{
     width: 25%;
     height: 180px;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 .shipping{
     width: 28%;
     height: 180px;
-    background-color: turquoise;  
+    /* background-color: turquoise;   */
 }
 .lowprice{
     width: 20%;
     height: 180px;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 .available{
-    width: 25%;
+    width:20%;
     height: 180px;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
-.imgthree,.imgfour{
-    width: 50%;
+.imgthree{
+    width: 70%;
     height: 170px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background-image: url(./price\ tag.PNG);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
 }
 .imgone{
     height: 90px;
@@ -50,4 +53,12 @@
     width: 33%;
     height: 100px;
     /* background-color: aliceblue; */
+}
+.imgfour{
+    width: 54%;
+    height: 170px;
+    /* background-color: aliceblue; */
+    background-image: url(./Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: 90px 90px;
 }

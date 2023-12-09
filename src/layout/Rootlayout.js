@@ -7,6 +7,7 @@ import Firstpage from "../firstdiv/firstpage";
 import Secondpage from "../seconddiv/secondpage";
 import White from "./white";
 import Thirdpage from "../thirddiv3/thirdpage";
+import Fourthpage from "../fourthdiv/fourthpage";
 
 
 
@@ -20,6 +21,7 @@ import Thirdpage from "../thirddiv3/thirdpage";
       <Firstpage />
       <Secondpage />
       <Thirdpage />
+      <Fourthpage/>
       <Outlet />
       </div>
     );
