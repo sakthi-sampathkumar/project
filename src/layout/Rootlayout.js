@@ -1,10 +1,12 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import Navbar from "./firstnav";
 
  function Rootlayout(){
     return(
        <div>
-         <Outlet/>
+      <Navbar/>
+      <Outlet />
       </div>
     );
 }
