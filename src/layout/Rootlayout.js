@@ -1,11 +1,13 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Navbar from "./firstnav";
+import Firstnav from "./firstnav";
+import Secondnav from "./secondnav";
 
  function Rootlayout(){
     return(
        <div>
-      <Navbar/>
+      <Firstnav/>
+      <Secondnav/>
       <Outlet />
       </div>
     );
