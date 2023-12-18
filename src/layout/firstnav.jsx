@@ -3,7 +3,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
@@ -11,24 +10,17 @@ import Form from 'react-bootstrap/Form';
 import { IoSearchSharp } from "react-icons/io5";
 import { IoPersonCircleSharp } from "react-icons/io5";
 import { FaBell } from "react-icons/fa6";
+import { FaBookOpen } from "react-icons/fa";
+import './firstnav.css';
 
 function Firstnav() {
   return (
-    <Navbar expand="lg" className="firstnavbar">
+    <Navbar expand="lg" className="firstnavbar sticky-top shadow">
       <Container>
-        <Navbar.Brand href="#home">
-          <Image
-            src="path/to/your/image.jpg" // Replace with the actual path to your image file
-            alt=""
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />{' '}
-          <b>Academy</b>
-        </Navbar.Brand>
+        <Navbar.Brand href="#home" className='book ms-5'> <FaBookOpen size={30}/> <b>Academy</b></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto ms-5">
+          <Nav className="me-auto ms-3">
 
             <NavDropdown title="Categories" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Designing</NavDropdown.Item>

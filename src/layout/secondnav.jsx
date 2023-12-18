@@ -1,29 +1,29 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { FaPenNib } from "react-icons/fa";
+import { BsCameraReelsFill } from "react-icons/bs";
+import { MdOutlineComputer } from "react-icons/md";
+import './firstnav.css';
 
 function Secondnav() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="secondnavbar">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+          <Nav.Link href="#link" className='computer ms-5'><MdOutlineComputer /></Nav.Link>
+            <Nav.Link href="#home">Python</Nav.Link>
+            <Nav.Link href="#link">React</Nav.Link>
+            <Nav.Link href="#link">Unity</Nav.Link>
+            <Nav.Link href="#link" className='pen ms-5'> <FaPenNib /> </Nav.Link>
+            <Nav.Link href="#link">UI & UX</Nav.Link>
+            <Nav.Link href="#link">Vector</Nav.Link>
+            <Nav.Link href="#link" className='camera ms-5'> <BsCameraReelsFill /> </Nav.Link>
+            <Nav.Link href="#link">After effects</Nav.Link>
+            <Nav.Link href="#link">Lightroom</Nav.Link>
+            <Nav.Link href="#link">Photography</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
