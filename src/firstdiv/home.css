@@ -2,10 +2,14 @@
     width: 100%;
     height: 500px;
     /* background-color: aquamarine; */
-    background-image: url(./imgone.jpg);
+}
+.leftbackground{
+    width: 50%;
+    height: 500px;
+    /* background-color: blueviolet; */
+    background-image: url(./Banner\ Image.png);
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size:1350px 500px;
-    position: absolute;
 }
 .textone{
     width:36%;
@@ -21,11 +25,18 @@
     background-color: black;
     color: white;
 }
+.discount{
+    width: 40%;
+    height: 140px;
+    background-color: aqua;
+    margin-left: 200px;
+    margin-bottom: 600px;
+}
 .seconddiv{
     width: 100%;
     height: 200px;
     background-color: wheat;
-    margin-top: 530px;
+    /* margin-top: 330px; */
 }
 .texttwo{
     width: 40%;
