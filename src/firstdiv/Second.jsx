@@ -8,7 +8,7 @@ import './home.css';
 
 // ... (previous imports)
 
-export default function Seconddiv() {
+export default function Second() {
   return (
     <div className='seconddiv'>
       <div className='texttwo'><h2>Search Among<span  style={{color: 'violet'}}> 58340 </span> Courses And    </h2></div>

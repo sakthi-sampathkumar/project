@@ -3,14 +3,18 @@
     height: 500px;
     /* background-color: aquamarine; */
 }
-.leftbackground{
+.leftbackground {
     width: 50%;
     height: 500px;
-    /* background-color: blueviolet; */
-    background-image: url(./Banner\ Image.png);
+    background-image: url('./Banner Image.png');
     background-size: contain;
     background-repeat: no-repeat;
-}
+    transition: transform 0.9s ease; /* Adding smooth transition on transform */
+  }
+  
+  .leftbackground:hover {
+    transform:  rotateY(360deg);
+  }
 .textone{
     width:36%;
     height: 300px;
@@ -27,16 +31,17 @@
 }
 .discount{
     width: 40%;
-    height: 140px;
-    background-color: aqua;
-    margin-left: 200px;
-    margin-bottom: 600px;
+    /* background-color: aqua; */
+    background-image: url(./booked.png);
+    background-repeat: no-repeat;
+    background-size: 200px 70px;
 }
+/* first page ends here */
+/* second page starts here */
 .seconddiv{
     width: 100%;
     height: 200px;
-    background-color: wheat;
-    /* margin-top: 330px; */
+    /* background-color: wheat; */
 }
 .texttwo{
     width: 40%;
@@ -70,3 +75,14 @@
     height: 50px;
     margin-left: 50px;
 }
+/* second page ends here */
+/* third page starts here */
+.thirddrivnav{
+    color:black;
+}
+.allcourses{
+    margin-left: 350px;
+}
+/* .cardtitle{
+    font-size: 5px;
+} */
