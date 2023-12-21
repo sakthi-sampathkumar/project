@@ -12,6 +12,7 @@ import { IoPersonCircleSharp } from "react-icons/io5";
 import { FaBell } from "react-icons/fa6";
 import { FaBookOpen } from "react-icons/fa";
 import './firstnav.css';
+import Designing from '../courses/designing';
 
 function Firstnav() {
   return (
@@ -23,7 +24,7 @@ function Firstnav() {
           <Nav className="me-auto ms-3">
 
             <NavDropdown title="Categories" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Designing</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Designing </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Programming</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Graphics</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Frontend</NavDropdown.Item>
