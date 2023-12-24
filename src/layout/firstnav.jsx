@@ -12,27 +12,27 @@ import { IoPersonCircleSharp } from "react-icons/io5";
 import { FaBell } from "react-icons/fa6";
 import { FaBookOpen } from "react-icons/fa";
 import './firstnav.css';
-import Designing from '../courses/designing';
+import { Link } from 'react-router-dom';
 
 function Firstnav() {
   return (
     <Navbar expand="lg" className="firstnavbar sticky-top shadow">
       <Container>
-        <Navbar.Brand href="#home" className='book ms-5'> <FaBookOpen size={30}/> <b>Academy</b></Navbar.Brand>
+        <Navbar.Brand> <Link to='/home'id='link' className='book ms-5'> <FaBookOpen size={30}/> <b>Academy</b></Link> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ms-3">
 
             <NavDropdown title="Categories" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Designing </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Programming</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Graphics</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Frontend</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Photography</NavDropdown.Item>
+              <NavDropdown.Item> <Link to='/design'id='link'>Designing </Link> </NavDropdown.Item>
+              <NavDropdown.Item> <Link to='/programming' id='link'>Programming</Link> </NavDropdown.Item>
+              <NavDropdown.Item><Link to='/graphics'id='link'>Graphics</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to='/frontend'id='link'>Frontend</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to='/photography' id='link'>Photography</Link></NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#home">Tech</Nav.Link>
-            <Nav.Link href="#link">Contact us</Nav.Link>
-            <Nav.Link href="#link">About us</Nav.Link>
+            <Nav.Link> <Link to='/tech' id='link'>Tech</Link> </Nav.Link>
+            <Nav.Link><Link to='/contactus' id='link'>Contact Us</Link></Nav.Link>
+            <Nav.Link><Link to='/aboutus' id='link'>About Us</Link></Nav.Link>
             <Form inline>
         <Row>
           <Col xs="auto">
@@ -47,7 +47,7 @@ function Firstnav() {
           </Col>
         </Row>
       </Form>
-      <Nav.Link href="#link">Login <IoPersonCircleSharp  size={30}/></Nav.Link>
+      <Nav.Link> <Link to='/login' id='link'>Login <IoPersonCircleSharp  size={30}/></Link> </Nav.Link>
       <Nav.Link href="#link"> <FaBell size={20}/></Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -5,6 +5,7 @@ import { FaPenNib } from "react-icons/fa";
 import { BsCameraReelsFill } from "react-icons/bs";
 import { MdOutlineComputer } from "react-icons/md";
 import './firstnav.css';
+import { Link } from 'react-router-dom';
 
 function Secondnav() {
   return (
@@ -14,16 +15,16 @@ function Secondnav() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
           <Nav.Link href="#link" className='computer ms-5'><MdOutlineComputer /></Nav.Link>
-            <Nav.Link href="#home" className='py ms-2'>Python</Nav.Link>
-            <Nav.Link href="#link"className='py ms-4'>React</Nav.Link>
-            <Nav.Link href="#link"className='py ms-4'>Unity</Nav.Link>
+            <Nav.Link> <Link to='/python' id='link' className='py ms-2'>Python</Link> </Nav.Link>
+            <Nav.Link> <Link to='/react' className='py ms-4'id='link'>React</Link></Nav.Link>
+            <Nav.Link> <Link to='/unity' className='py ms-4'id='link'>Unity</Link> </Nav.Link>
             <Nav.Link href="#link" className='pen ms-5'> <FaPenNib /> </Nav.Link>
-            <Nav.Link href="#link"className='py ms-2'>UI & UX</Nav.Link>
-            <Nav.Link href="#link"className='py ms-4'>Vector</Nav.Link>
+            <Nav.Link> <Link to='/uiux' className='py ms-2'id='link'>UI & UX</Link> </Nav.Link>
+            <Nav.Link> <Link to='/vector' className='py ms-4'id='link'>Vector</Link> </Nav.Link>
             <Nav.Link href="#link" className='camera ms-5'> <BsCameraReelsFill /> </Nav.Link>
-            <Nav.Link href="#link"className='py ms-2'>After effects</Nav.Link>
-            <Nav.Link href="#link"className='py ms-4'>Lightroom</Nav.Link>
-            <Nav.Link href="#link"className='py ms-4'>Photography</Nav.Link>
+            <Nav.Link> <Link to='/aftereffects' className='py ms-2'id='link'>After effects</Link> </Nav.Link>
+            <Nav.Link> <Link to='/lightroom' className='py ms-4'id='link'>Lightroom</Link> </Nav.Link>
+            <Nav.Link> <Link to='/photography' className='py ms-4'id='link'>Photography</Link> </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
