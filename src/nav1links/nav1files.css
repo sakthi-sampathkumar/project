@@ -1,0 +1,158 @@
+.tech{
+    width: 90%;
+    height: 480px;
+    background: linear-gradient(to right, #5674d6, #bb5ebe);
+    border-radius: 20px;
+}
+.techimg{
+    width: 30%;
+    height: 200px;
+    background-image: url(./tech2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 400px;
+    animation: techimg 5s ease 1s 5 reverse backwards;
+}
+
+@keyframes techimg {
+	0% {
+		background-position: center bottom;
+		background-size: 100%;
+	}
+
+	100% {
+		background-position: center bottom;
+		background-size: 150%;
+	}
+}
+
+/* tech page ends here */
+
+/* contact page starts here */
+.contactdiv{
+    width: 90%;
+    height: 550px;
+    background: linear-gradient(to right, #5674d6, #bb5ebe);
+    border-radius: 20px;
+}
+.contactadd, .contactmail, .contactphone{
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    background:linear-gradient(to left, #5674d6, #bb5ebe); 
+    margin-top: 40px;
+}
+.contactmap{
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.aboutdiv{
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+    background:linear-gradient(to left, #bb5ebe, #5674d6); 
+    animation: aboutdiv 2s ease-in 1s 1 normal forwards;
+}
+@keyframes designingpara {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+/* designing page ends here */
+
+/* programming page starts here */
+.programdiv{
+    width: 90%;
+    height: 280px;
+    background: linear-gradient(to right,#bb5ebe, #5674d6);
+    border-radius: 20px;
+    animation: programdiv 2s ease-in 1s 1 normal forwards;
+}
+.programimg{
+    margin-left: 500px;
+    border-radius: 20px;
+}
+@keyframes aboutdiv {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}

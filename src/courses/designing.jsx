@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import designtwo from './design2img.jpg'
 import designthree from './design3img.jpg'
-import './course.css'
+import './courses.css'
 
 function Designing() {
   return (

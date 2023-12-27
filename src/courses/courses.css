@@ -1,0 +1,298 @@
+/* designing page starts here */
+.designpara{
+    width: 90%;
+    height: 260px;
+    background: linear-gradient(to right,#bb5ebe, #5674d6);
+    border-radius: 20px;
+    animation: designingpara 2s ease-in 1s 1 normal forwards;
+}
+@keyframes designingpara {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+/* designing page ends here */
+
+/* programming page starts here */
+.programdiv{
+    width: 90%;
+    height: 280px;
+    background: linear-gradient(to right,#bb5ebe, #5674d6);
+    border-radius: 20px;
+    animation: programdiv 2s ease-in 1s 1 normal forwards;
+}
+.programimg{
+    margin-left: 500px;
+    border-radius: 20px;
+}
+@keyframes programdiv {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+/* progrmming page ends here */
+
+/* graphics page starts here */
+.graphicdiv{
+    width: 90%;
+    height: 450px;
+    background: linear-gradient(to right,#bb5ebe, #5674d6);
+    border-radius: 20px;
+    animation: graphicdiv 2s ease-in 1s 1 normal forwards;
+}
+@keyframes graphicdiv {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+.graphicimg{
+    width: 30%;
+    height: 150px;
+    background-image: url(./graphic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 400px;
+    animation: graphicimg 5s ease 1s 5 reverse backwards;
+}
+@keyframes graphicimg {
+	0% {
+		background-position: center bottom;
+		background-size: 100%;
+	}
+
+	100% {
+		background-position: center bottom;
+		background-size: 150%;
+	}
+}
+/* graphic page ends here */
+
+/* frontend page starts here */
+.frontenddiv{
+    width: 95%;
+    height: 500px;
+    background: linear-gradient(to right,#bb5ebe, #5674d6);
+    border-radius: 20px;
+    animation: frontenddiv 2s ease-in 1s 1 normal forwards;
+}
+@keyframes frontenddiv {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+/* frontend page ends here */
+
+/* photography page starts here */
+.photodiv{
+    width: 95%;
+    height: 600px;
+    background: linear-gradient(to right,#bb5ebe, #5674d6);
+    border-radius: 20px;
+    animation: photodiv 2s ease-in 1s 1 normal forwards;
+}
+@keyframes photodiv {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+.photoimg{
+    width: 30%;
+    height: 270px;
+    background-image: url(./photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 400px;
+}
+/* photography page ends here */

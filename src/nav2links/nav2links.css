@@ -1,0 +1,59 @@
+.pythondiv{
+    width: 90%;
+    height: 500px;
+    background: linear-gradient(to right,#bb5ebe, #5674d6);
+    border-radius: 20px;
+    animation: programdiv 2s ease-in 1s 1 normal forwards;
+}
+.pythonimg{
+    width: 30%;
+    height: 200px;
+    background-image: url(./python.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 400px;
+}
+@keyframes pythondiv {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
