@@ -44,14 +44,15 @@
     margin-top: 40px;
 }
 .contactmap{
-    width: 30%;
-    height: 50px;
+    width: 40%;
+    /* height: 100px; */
     border-radius: 20px;
-    margin-top: 40px;
+    margin-top: -250px;
+	margin-left: 600px;
 }
 .aboutdiv{
     width: 90%;
-    height: 300px;
+    height: 400px;
     border-radius: 20px;
     background:linear-gradient(to left, #bb5ebe, #5674d6); 
     animation: aboutdiv 2s ease-in 1s 1 normal forwards;
@@ -155,4 +156,8 @@
 		animation-timing-function: ease-out;
 		transform: translateY(0);
 	}
+}
+.aboutheadersix{
+	margin-top: 15px;
+	padding: 20px;
 }

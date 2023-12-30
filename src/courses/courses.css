@@ -241,6 +241,7 @@
     height: 600px;
     background: linear-gradient(to right,#bb5ebe, #5674d6);
     border-radius: 20px;
+	margin-top: 20px;
     animation: photodiv 2s ease-in 1s 1 normal forwards;
 }
 @keyframes photodiv {
@@ -296,3 +297,7 @@
     margin-left: 400px;
 }
 /* photography page ends here */
+.coursesheadersix{
+	margin-top: 20px;
+	padding: 15px;
+}

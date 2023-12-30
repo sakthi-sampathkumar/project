@@ -44,7 +44,7 @@ function Course() {
       {/* first row four cards start here */}
       
       <Row md={4}>
-        <Col className='card mt-5'><Card style={{ width: '18rem' }}>
+        <Col className='card mt-5' style={{borderStyle:'none'}}><Card >
       <Card.Img className='cardimg' variant="top" src={imgone} />
       <Card.Body id='cardbody'>
         <Card.Title id='cardtitle'>Learn Figma-UI/UX design Essential Training</Card.Title>
@@ -56,7 +56,7 @@ function Course() {
     </Card>
 </Col>
 
-        <Col xs={6} className='card mt-5'><Card style={{ width: '18rem' }}>
+        <Col  className='card mt-5'style={{borderStyle:'none'}}><Card>
       <Card.Img className='cardimg' variant="top" src={imgtwo} />
       <Card.Body>
         <Card.Title id='cardtitle'>Python for Beginners-Learn Programming....</Card.Title>
@@ -67,18 +67,18 @@ function Course() {
       </Card.Body>
     </Card></Col>
 
-        <Col className='card mt-5'><Card style={{ width: '18rem' }}>
+        <Col className='card mt-5'style={{borderStyle:'none'}}><Card >
       <Card.Img className='cardimg' variant="top" src={imgthree} />
       <Card.Body>
         <Card.Title id='cardtitle'>Acoustic Guitar and Electric Guitar Started</Card.Title>
         <Card.Text id='cardtexttwo'>
         <FaBookBookmark  size={15}/> Lesson-8 <IoMdPerson  size={15}/> Student-301 <IoMdTrophy size={15}/> Advanced
         </Card.Text>
-        <div className='buttonimg d-flex'> <Button variant="dark">Start Course</Button><div className='starfive'></div></div>
+        <div className='buttonimg d-flex'><Button variant="dark">Start Course</Button> <div className='starfive'></div></div>
       </Card.Body>
     </Card></Col>
 
-        <Col className='card mt-5'><Card style={{ width: '18rem' }}>
+        <Col className='card mt-5'style={{borderStyle:'none'}}><Card >
       <Card.Img className='cardimg' variant="top" src={imgfour} />
       <Card.Body>
         <Card.Title id='cardtitlefour'>Mobile App Development with flutter & Dart...</Card.Title>
@@ -96,7 +96,7 @@ function Course() {
 
       
       <Row md={4}>
-        <Col className='card mt-5'><Card style={{ width: '18rem' }}>
+        <Col className='card mt-5'style={{borderStyle:'none'}}><Card>
       <Card.Img className='cardimg' variant="top" src={imgfive} />
       <Card.Body id='cardbody'>
         <Card.Title id='cardtitle'>Ionic React: Mobile Development with React</Card.Title>
@@ -108,7 +108,7 @@ function Course() {
     </Card>
 </Col>
 
-        <Col xs={6} className='card mt-5'><Card style={{ width: '18rem' }}>
+        <Col  className='card mt-5'style={{borderStyle:'none'}}><Card>
       <Card.Img className='cardimg' variant="top" src={imgsix} />
       <Card.Body>
         <Card.Title id='cardtitle'>Sports Mangement: Essential Course</Card.Title>
@@ -119,7 +119,7 @@ function Course() {
       </Card.Body>
     </Card></Col>
 
-        <Col className='card mt-5'><Card style={{ width: '18rem' }}>
+        <Col className='card mt-5'style={{borderStyle:'none'}}><Card>
       <Card.Img className='cardimg' variant="top" src={imgseven} />
       <Card.Body>
         <Card.Title id='cardtitle'>How to Market Yourself As A Consultant</Card.Title>
@@ -130,7 +130,7 @@ function Course() {
       </Card.Body>
     </Card></Col>
 
-        <Col className='card mt-5'><Card style={{ width: '18rem' }}>
+        <Col className='card mt-5'style={{borderStyle:'none'}}><Card>
       <Card.Img className='cardimg' variant="top" src={imgeight} />
       <Card.Body>
         <Card.Title id='cardtitlefour'>Become A Project Manager I Learn the Skill...</Card.Title>
