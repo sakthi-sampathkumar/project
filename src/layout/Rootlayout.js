@@ -5,6 +5,7 @@ import Secondnav from "./secondnav";
 import Home from "../firstdiv/home";
 import Second from "../firstdiv/Second";
 import Course from "../firstdiv/course";
+import Instructor from "../thirddiv/instructor";
 
  function Rootlayout(){
     return(
@@ -14,6 +15,7 @@ import Course from "../firstdiv/course";
       <Home/>
       <Second/>
       <Course/>
+      <Instructor/>
       <Outlet />
       </div>
     );
