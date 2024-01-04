@@ -6,6 +6,7 @@ import Home from "../firstdiv/home";
 import Second from "../firstdiv/Second";
 import Course from "../firstdiv/course";
 import Instructor from "../thirddiv/instructor";
+import Fourthpage from "../thirddiv/fourthpage";
 
  function Rootlayout(){
     return(
@@ -16,6 +17,7 @@ import Instructor from "../thirddiv/instructor";
       <Second/>
       <Course/>
       <Instructor/>
+      <Fourthpage />
       <Outlet />
       </div>
     );

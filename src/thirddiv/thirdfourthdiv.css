@@ -1,24 +1,56 @@
 .instructor{
     width: 100%;
-    height: 550px;
-    background-color: aqua;
+    height: 600px;
+    margin-top: 50px;
+    /* background-color: aqua; */
+}
+.card{
+    border-radius: 30px;
 }
 .instructorleft{
     width: 30%;
     height: 300px;
     margin-top: 150px;
-    margin-left: 130px;
-    background-color: cadetblue;
+    margin-left: 50px;
+    /* background-color: cadetblue; */
 }
 .instructorbutton{
     margin-top: 100px;
 }
-/* .instructorimg{
-    background-image: url(./instructor.PNG);
-    width: 30%;
-    height: 50px;
+.fourthdiv{
+    width: 100%;
+    height: 700px;
+    background-color: burlywood;
+}
+.buttonnav{
+    margin-left: 800px;
+}
+.cardcard{
+    transition: transform 0.3s ease-in-out;
+}
+.cardcard:hover {
+    transform: scale(1.2); /* Adjust the scale factor for zoom level */
+}
+.banner{
+    width: 99%;
+    height: 300px;
+    background-color: aqua;
+}
+.bannerup{
+    width: 48%;
+    height: 300px;
+    background-color: cornsilk;
+}
+.bannerdown{
+    width: 48%;
+    height: 300px;
+    background-color: cornsilk;
+}
+.bannerimgone{
+    width: 48%;
+    height: 280px;
+    background-image: url(./up1.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 200px;
-    margin-top: -50px;
-} */
+    background-size: cover;
+    border-radius: 10px;
+}
